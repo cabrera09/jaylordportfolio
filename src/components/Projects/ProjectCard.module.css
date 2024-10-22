@@ -9,13 +9,26 @@
   padding: 18px 24px;
   max-width: 345px;
 }
+.projectImage {
+  width: 800px;
+  height: 600px;
+  display: block;
+  border-radius: 8px;
+  max-width: 100%;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out; /* Example transition for scale effect */
 
-.image {
-  margin-bottom: 26px;
 }
 
+.projectImage:hover {
+  transform: scale(1.1); /* Example scale effect on hover */
+}
+
+
+
+
 .title {
-  font-size: 25px;
+  font-size: 55px;
   font-weight: 700;
 }
 
@@ -39,7 +52,7 @@
   font-size: 25px;
   font-weight: 400;
   border-radius: 100px;
-  background: var(--color-dark);
+ 
   padding: 2px 22px;
 }
 
@@ -52,10 +65,12 @@
 
 .link {
   text-decoration: none;
+
   color: var(--color-text);
   font-size: 30px;
   font-weight: 600;
   border-radius: 100px;
+  
   background: var(--color-primary);
   padding: 1px 22px;
 }

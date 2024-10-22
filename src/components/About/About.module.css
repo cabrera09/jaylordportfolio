@@ -26,8 +26,20 @@
 }
 
 .aboutImage {
-  width: 35%;
+  width: 100%;
+  height: auto; 
+  max-width: 600px;
+  border-radius: 8px;
+  display: block; 
+  margin: 0 auto; 
+  transition: transform 0.3s ease; 
+  border-radius: 41%;
 }
+
+.aboutImage:hover {
+  transform: scale(1.05);
+}
+
 
 .aboutItems {
   color: var(--color-text);
